@@ -1,0 +1,23 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	
+	"SublimeLinter":{
+        "debug": false,
+        "linters":{
+            "eslint":{
+                "excludes":[
+                    "dist/*",
+                    "node_modules/*"
+                ]
+            },
+            "jshint":{
+                "@disable":true
+            }
+        }
+    }
+}

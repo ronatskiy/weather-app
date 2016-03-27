@@ -1,0 +1,278 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"vide",
+				"videoSearch"
+			],
+			[
+				"con",
+				"const"
+			],
+			[
+				"vi",
+				"videoSearch"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"v",
+				"videoId"
+			],
+			[
+				"vid",
+				"video"
+			],
+			[
+				"Vi",
+				"VideoListItem"
+			],
+			[
+				"Ap",
+				"API_KEY"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 173.0,
+		"last_filter": "scop",
+		"selected_items":
+		[
+			[
+				"scop",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 132.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Roman/Projects/github.com/ReactRedux/package.json",
+		"/C/Roman/Projects/github.com/ReduxSimpleStarter/style/style.css",
+		"/C/Roman/Projects/github.com/ReduxSimpleStarter/src/components/search-bar.jsx",
+		"/C/Roman/Projects/github.com/ReduxSimpleStarter/src/components/app.jsx",
+		"/C/Roman/Projects/github.com/ReduxSimpleStarter/index.html",
+		"/C/Roman/Projects/github.com/ReduxSimpleStarter/.gitignore",
+		"/C/Roman/Projects/github.com/ReduxSimpleStarter/src/components/video-details.jsx",
+		"/C/Roman/Projects/github.com/ReduxSimpleStarter/src/components/video-list-item.jsx",
+		"/C/Roman/Projects/github.com/ReduxSimpleStarter/webpack.config.babel.js",
+		"/C/Roman/Projects/github.com/ReduxSimpleStarter/src/components/video-list.jsx",
+		"/C/Roman/Projects/github.com/ReduxSimpleStarter/src/index.js",
+		"/C/Roman/Projects/github.com/ReduxSimpleStarter/dist/bundle.js",
+		"/C/Users/Roman/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Roman/Projects/github.com/ReduxSimpleStarter/src/reducers/index.js",
+		"/C/Roman/Projects/github.com/ReduxSimpleStarter/.eslintrc",
+		"/C/Roman/Projects/bitbucket.org/NotaryHelpDesk/.hgignore",
+		"/G/Install/SOFT/Photodex Proshow Producer 5.0.3206 - RES/crack/instruction.nfo",
+		"/G/Install/SOFT/Photodex Proshow Producer 5.0.3206 - RES/crack/regged.reg",
+		"/C/Roman/Projects/bitbucket.org/words/Words.WebUI/Words.WebUI.csproj",
+		"/C/Users/Roman/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Roman/Projects/github.com/ReduxSimpleStarter/ReduxSimpleStarter.sublime-project",
+		"/C/Users/Roman/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/Roman/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Roman/Projects/github.com/ReduxSimpleStarter/package.json",
+		"/C/Roman/Projects/github.com/ReduxSimpleStarter/webpack.config.js",
+		"/C/Roman/Projects/github.com/ReduxSimpleStarter/src/components/search-bar.js",
+		"/C/Roman/Projects/github.com/ReduxSimpleStarter/src/components/app.js",
+		"/C/Roman/Projects/bitbucket.org/words/.hg/hgrc",
+		"/C/Roman/Projects/github.com/dive-into-english/.gitignore",
+		"/C/Roman/Projects/bitbucket.org/NotaryHelpDesk/NotaryHelpDesk/App_Data/DocsDB.mdf",
+		"/C/Roman/Projects/bitbucket.org/words/Words.sln",
+		"/C/Roman/Projects/bitbucket.org/words/Words/Web.config",
+		"/C/Roman/Projects/bitbucket.org/words/Words.DAL/DataModel.edmx",
+		"/C/Roman/Projects/bitbucket.org/improveeng.somee.com/improveeng.somee.com/Views/Shared/_Layout.cshtml",
+		"/C/Roman/Projects/github.com/engpages/index.html",
+		"/C/Roman/Projects/github.com/engpages/README.md",
+		"/C/Рома/Projects/words/Words/Web.config",
+		"/C/Games/Grand Theft Auto V/gtav_reg.reg",
+		"/C/Games/Grand Theft Auto V/version.txt",
+		"/C/Рома/Projects/words/.hg/hgrc",
+		"/C/Рома/Projects/words/Words/Views/Home/Index.cshtml",
+		"/C/Рома/Projects/words/Words/Controllers/HomeController.cs",
+		"/C/Рома/Projects/words/Words/Views/Home/_PartialViewTable.cshtml",
+		"/C/Рома/Projects/words/Words/Views/Home/_PartialAddMyModelDialog.cshtml",
+		"/C/Games/Grand Theft Auto V/MechSet.ini",
+		"/C/Рома/Downloads/r_onatsky/home_r_onatsky_local_serv.ovpn",
+		"/C/Рома/Projects/words/.hgignore",
+		"/C/Рома/Projects/words/DataBase/WordsDB.mdf",
+		"/C/Рома/Projects/words/Words/Words.csproj",
+		"/C/Рома/Projects/words/Words/ApplicationInsights.config",
+		"/C/Рома/Projects/words/Words.sln",
+		"/C/Рома/Projects/words/Words/Words.csproj.user",
+		"/C/Рома/Projects/WebApplication2/.hgignore",
+		"/C/Windows/Performance/WinSAT/DataStore/2016-01-29 20.49.41.283 Formal.Assessment (Recent).WinSAT.xml",
+		"/C/Windows/Performance/WinSAT/DataStore/2016-01-29 20.49.06.990.winsat.etl"
+	],
+	"find":
+	{
+		"height": 52.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">\n",
+			"'",
+			"\";\n",
+			"smart-tabs",
+			"no-mix",
+			"no-emp",
+			"quot",
+			"quo",
+			"qu",
+			"quote",
+			"Words",
+			"/>\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.scope_viewer":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "ReduxSimpleStarter.sublime-project",
+	"replace":
+	{
+		"height": 98.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 205.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
