@@ -1,9 +1,12 @@
 import React, { Component } from "react";
+
+
+
 import { connect } from "react-redux";
 import { selectBook } from "../actions/index";
 import { bindActionCreators } from "redux";
 
-class BookList extends Component {
+export default class WeatherList extends Component {
 	renderList() {
 		return this.props.books.map(book => {
 			return (
@@ -19,6 +22,13 @@ class BookList extends Component {
 
 	render() {
 		return (
+			<table className="table table-hover">
+				<thead>
+					<tr>
+						<th>City</th>
+					</tr>
+				</thead>
+			</table>
 			<ul className="list-group col-sm-4">
 				{this.renderList()}
 			</ul>
