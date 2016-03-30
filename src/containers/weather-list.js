@@ -1,39 +1,28 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-
-import { Sparklines, SparklinesLine } from "react-sparklines";
-// import { bindActionCreators } from "redux";
+import Chart from "../components/chart";
+import GoogleMap from "../components/google-map";
 
 class WeatherList extends Component {
 	renderWeather(cityData) {
 		const cityName = cityData.city.name;
-		const temps = cityData.list.map(weather => weather.main.temp-273.15);
+		const temps = cityData.list.map(weather => weather.main.temp - 273.15);
 		const humidities = cityData.list.map(weather => weather.main.humidity);
 		const pressures = cityData.list.map(weather => weather.main.pressure);
 
-		console.log(temps);
+		const {lon, lat} = cityData.city.coord;
 
 		return (
-			<tr
-				key={cityName}
-				//onClick={() => this.props.selectBook(book)}
-				//className="list-group-item"
-				>
-				<td>{cityName}</td>
+			<tr	key={cityName} >
+				<td><GoogleMap lon={lon} lat={lat}/></td>
 				<td>
-					<Sparklines height={120} width={180} data={temps}>
-						<SparklinesLine color="red"/>
-					</Sparklines>
+					<Chart data={temps} color="red" units="C"/>
 				</td>
 				<td>
-					<Sparklines height={120} width={180} data={humidities}>
-						<SparklinesLine color="green"/>
-					</Sparklines>
+					<Chart data={humidities} color="blue" units="hPa"/>
 				</td>
 				<td>
-					<Sparklines height={120} width={180} data={pressures}>
-						<SparklinesLine color="blue"/>
-					</Sparklines>
+					<Chart data={pressures} color="green" units="%"/>
 				</td>
 			</tr>
 		);
@@ -45,9 +34,9 @@ class WeatherList extends Component {
 				<thead>
 					<tr>
 						<th>City</th>
-						<th>Temperature</th>
-						<th>Pressure</th>
-						<th>Humidity</th>
+						<th>Temperature, (C)</th>
+						<th>Pressure, (hPa)</th>
+						<th>Humidity, (%)</th>
 					</tr>
 				</thead>
 				<tbody>
